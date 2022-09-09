@@ -1,0 +1,162 @@
+body {
+    background: #fff;
+}
+
+header {
+    background: grey;
+    padding-bottom: 20px;
+    height: 50px;
+}
+
+.header-title {
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'Dancing Script', cursive;
+    /* width: 50%; */
+    float: left;
+}
+
+.small-title {
+    border-bottom: 1px solid black;
+    width: 300px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.footer {
+    background: grey;
+    padding: 15px;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+
+
+}
+
+nav a {
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.baniere {
+    background: url('images/taneli-lahtinen-suSwPNTaQ5Q-unsplash.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.baniereTitre {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    color: #FFF;
+    font-size: 2.25rem;
+}
+
+.baniereBtn {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    background: #0079BE;
+    color: #fff;
+    border: #fff solid 1px;
+    border-radius: 50px;
+    padding: .9rem;
+    text-decoration: none;
+}
+
+.baniereBtn:hover {
+    background: #fff;
+    color: #0079BE;
+}
+
+.baniereImg {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.description-image {
+    font-size: 18px;
+    color: grey;
+    font-style: italic;
+}
+
+.text-content {
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    text-align: justify;
+    overflow-wrap: break-word
+}
+
+.important {
+    text-decoration: underline;
+    color: tomato;
+    text-transform: uppercase;
+}
+
+.titreContainer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.titleSection {
+    color: #0079BE;
+    font-size: 35px;
+    line-height: 20px;
+}
+
+.subtitleSection {
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.detailContainer {
+    border-bottom: #0079BE solid 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.detailImage {
+    width: 50%;
+    height: auto;
+}
+
+.description {
+    color: #959595;
+}
+
+.detailBtn {
+    background: #0079BE;
+    color: #fff;
+    border: #fff solid 1px;
+    padding: .9rem;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.detailText {
+    margin-bottom: 50px;
+}
+
+.containerLeft {
+    float: right;
+}
